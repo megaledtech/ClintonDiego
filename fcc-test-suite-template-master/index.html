@@ -9,46 +9,71 @@
 
 <body>
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  
+  <div id="pageWrapper">
 
+  
   <header id="header">
     <nav id="nav-bar">
-      <span>Pizza</span>
-      <a class="nav-link" href="#Home">Home</a>
-      <a class="nav-link" href="#About">About</a>
-      <a class="nav-link" href="#Contact">Contact</a>
+      <div class="logo">
+          <img src="img/logo.png" alt="" id="header-img">
+      </div>
+      <div>
+        <a class="nav-link" href="#Home">Home</a>
+        <a class="nav-link" href="#About">About</a>
+        <a class="nav-link" href="#Contact">Contact</a>
+      </div>
     </nav>
   </header>
-  <img src="img/logo.png" alt="" id="header-img">
+
+
+  <div class="content">
+    <div id="Home">
+      <p>
+        Pizza Hut es una cadena de restaurantes de comida rápida subsidiaria del grupo Yum! Brands.
+        Es conocido por su menú italoamericano de cocina que incluye pizza y pasta, así como guarniciones y postres.
+        Se encuentra en la quinta posición a nivel de negocios, por detrás de McDonalds, KFC, Dominos Pizza y Subway
+        (según datos de Forbes, de abril de 2013).1​
+      </p>
+    </div>
+
+    <iframe id="video" src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0"
+      allowfullscreen></iframe>
+
+    <div id=About>
+      <p>
+        Pizza Hut comenzó a hacer publicidad a nivel nacional en 1965 con la campaña Putt Putt to the Pizza Hut. Su
+        primer
+        logotipo tuvo como protagonista a su antigua mascota, Pete, con la palabra "Pizza" y "Hut" siendo sostenidos en
+        cada mano.13​
+
+        En 1967 se adopta el logotipo tradicional de el techo rojo con el nombre debajo, se basó en la fachada de los
+        restaurantes que hizo Richard D. Burke años atrás.
+
+        El diseño se modernizó en 1999 al actual, con una nueva tipografía y una modificación en el techo rojo.13​ Pizza
+        Hut introdujo un nuevo logotipo similar a a la anterior, pero se introdujo una fuente diferente. Además, la "i"
+        en
+        "Pizza" tenía un punto verde colocada en ella, y una línea amarilla se coloca debajo de la marca de palabra.
+        Aunque este logotipo renovado fue introducido, con los años ya no se utiliza el diseño del "techo rojo". Algunos
+        restaurantes renovados aún conservan la forma del diseño anterior, pero los más nuevos llevan revestimiento de
+        madera exterior y características interiores modernizados, solo algunos restaurantes renovados llevan el icono
+        del
+        "techo rojo", actualizando sólo el logotipo. A partir de 2010, este logo actualmente está siendo utilizado como
+        un
+        logotipo secundario.13​
+      </p>
+    </div>
+
+    <div id="Contact">
+      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <input type="email" id="email" placeholder="clinton@email.com" name="email" required>
+        <input type="submit" id="submit" value="Submit">
+      </form>
+      <a href="https://www.pizzahut.com.co/">PizzaHut</a>
+    </div>
+  </div>
 
   <script src="js/index.js"></script>
-
-  <div id="Home">
-    <p>
-      Pizza Hut es una cadena de restaurantes de comida rápida subsidiaria del grupo Yum! Brands. 
-      Es conocido por su menú italoamericano de cocina que incluye pizza y pasta, así como guarniciones y postres.
-    Se encuentra en la quinta posición a nivel de negocios, por detrás de McDonalds, KFC, Dominos Pizza y Subway 
-    (según datos de Forbes, de abril de 2013).1​
-    </p>
-  </div>
-  
-    <form id="form" action="">
-        <iframe id="video" src="http://www.youtube.com/embed/W7qWa52k-nE" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-
-    </form>
-
-  <div id=About>
-    <p>
-        Pizza Hut comenzó a hacer publicidad a nivel nacional en 1965 con la campaña Putt Putt to the Pizza Hut. Su primer logotipo tuvo como protagonista a su antigua mascota, Pete, con la palabra "Pizza" y "Hut" siendo sostenidos en cada mano.13​
-
-        En 1967 se adopta el logotipo tradicional de el techo rojo con el nombre debajo, se basó en la fachada de los restaurantes que hizo Richard D. Burke años atrás.
-        
-        El diseño se modernizó en 1999 al actual, con una nueva tipografía y una modificación en el techo rojo.13​ Pizza Hut introdujo un nuevo logotipo similar a a la anterior, pero se introdujo una fuente diferente. Además, la "i" en "Pizza" tenía un punto verde colocada en ella, y una línea amarilla se coloca debajo de la marca de palabra. Aunque este logotipo renovado fue introducido, con los años ya no se utiliza el diseño del "techo rojo". Algunos restaurantes renovados aún conservan la forma del diseño anterior, pero los más nuevos llevan revestimiento de madera exterior y características interiores modernizados, solo algunos restaurantes renovados llevan el icono del "techo rojo", actualizando sólo el logotipo. A partir de 2010, este logo actualmente está siendo utilizado como un logotipo secundario.13​
-    </p>
-  </div>
-
-  <div id="Contact">
-    <a href="https://www.pizzahut.com.co/">Web PizzaHut</a>
-  </div>
 </body>
 
 </html>
